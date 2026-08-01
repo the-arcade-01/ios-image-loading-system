@@ -1,0 +1,56 @@
+# ==========================================
+# macOS System Files
+# ==========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ==========================================
+# Xcode Build Artifacts & User Settings
+# ==========================================
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM/
+
+# Personal settings (window layouts, open files, breakpoints)
+xcuserdata/
+
+# Architecture and blueprint maps
+*.xcscmblueprint
+*.xccheckout
+
+# ==========================================
+# Swift Package Manager (SPM)
+# ==========================================
+# Ignore the build artifacts, but KEEP Package.resolved 
+# so your team stays on identical dependency versions.
+.build/
+Packages/
+Package.pins
+
+# ==========================================
+# CocoaPods (Optional)
+# ==========================================
+# Uncomment the next line if you want to exclude local pod source code
+Pods/
+
+# ==========================================
+# Carthage (Optional)
+# ==========================================
+Carthage/Build/
+Carthage/Checkouts/
+
+# ==========================================
+# Fastlane & CI (Optional)
+# ==========================================
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
